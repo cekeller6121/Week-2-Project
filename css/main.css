@@ -2,116 +2,98 @@
   font-family: 'PT Sans';
 }
 
-nav a {
-  color: #FFF;
-  text-decoration: none;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.nav-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.nav-ul {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-}
-
-.logo-wrapper {
-background-color: #F5005B;
-}
-
-.nav-home {
-  background-color: #00A5BF;
-}
-
-.nav-calendar {
-  background-color: #00B7D3;
-}
-
-.nav-join {
-  background-color: #00D5E7;
-}
-
 h1 {
   color: #FFF;
+  margin-bottom: 0;
+  padding: 15px;
 }
 
 h2 {
   background-color: #0B1942;
   color: #FFF;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-#get-involved {
+nav {
+  background-color: #7DDFE8;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+nav li  {
+  align-items: center;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.logo-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+img.nav-fc-logo {
+  width: 7.5em;
+  height: 7.5em;
+}
+
+  .nav-ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+  .logo-wrapper {
+    background-color: #F5005B;
+}
+
+  .nav-home {
+  background-color: #00A5BF;
+}
+
+  .nav-calendar {
+  background-color: #00B7D3;
+}
+
+  .nav-join {
+  background-color: #00D5E7;
+}
+
+  #get-involved {
   background-color: inherit;
   color: #0B1942
 }
 
-.up-next {
+  .up-next {
   background-color: #0B1942;
 }
 
-.up-next a {
+  .up-next a {
   color: #00B7D3
 }
 
-.rashomon {
+  .rashomon {
   background-color: #E2E2E2;
 }
 
-._4-poster {
+  ._4-poster {
   background-color: #E2E2E2;
 }
-
-.copyright {
-  background-color: #6CD6E0;
-  color: #FFF;
-  height: 65px;
-}
-
-@media screen and (max-width: 544px) {
-
-
-
-  .logo-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-  img.nav-fc-logo {
-    width: 90%;
-    height: 90%;
-  }
-
-
-
-  nav li  {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  h1 {
-    margin-bottom: 0;
-    padding: 15px;
-  }
-
-  h2 {
-    font-weight: normal;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
 
   .get-involved {
     margin-left: 20px;
@@ -129,7 +111,8 @@ h2 {
   }
 
   .up-next img {
-    width: 200px;
+    max-width: 200px;
+    min-height: 200px;
   }
 
   .rashomon {
@@ -198,19 +181,31 @@ h2 {
     flex-direction: column;
   }
 
-  bottom-nav {
+  .bottom-nav {
+    display: flex;
   }
 
-  .bottom-nav ul {
-    padding: 0;
+  .copyright {
+  color: #FFF;
+}
+
+  @media screen and (min-width: 545px) {
+
+  .nav-ul {
+    flex-direction: row;
   }
-}
 
-@media screen and (max-width: 768px;) {
+  nav li {
+    height: 9em;
+  }
 
-nav li {
-  display: flex;
-  flex-direction: row;
-}
+  nav li {
+    width: 9em;
+  }
 
-}
+  .copyright {
+    justify-content: flex-end;
+    width: 45%;
+  }
+
+  }
