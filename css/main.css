@@ -203,9 +203,38 @@ img.nav-fc-logo {
     width: 9em;
   }
 
+  ._4-poster {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ._4-poster img {
+    max-width: 20vw;
+  }
+
   .copyright {
     justify-content: flex-end;
     width: 45%;
+  }
+
+  }
+
+  @media screen and (min-width: 769px) {
+
+  .rashomon {
+    margin: 20px;
+    max-width: 40vw;
+  }
+
+  .up-next {
+    display: flex;
+    flex-direction: row;
+    }
+
+  ._4-poster {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
   }
 
   }
