@@ -1,0 +1,216 @@
+* {
+  font-family: 'PT Sans';
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  color: #FFF;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+h2 {
+  background-color: #0B1942;
+  color: #FFF;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav {
+  background-color: #7DDFE8;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+nav li  {
+  align-items: center;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.logo-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+img.nav-fc-logo {
+  width: 7.5em;
+  height: 7.5em;
+}
+
+  .nav-ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+  .logo-wrapper {
+    background-color: #F5005B;
+}
+
+  .nav-home {
+  background-color: #00A5BF;
+}
+
+  .nav-calendar {
+  background-color: #00B7D3;
+}
+
+  .nav-join {
+  background-color: #00D5E7;
+}
+
+.join h2 {
+  background-color: inherit;
+  color: #0B1942;
+}
+
+.profile-pic-wrapper {
+}
+
+.profile-pic-wrapper img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.name-email-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.name-email {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.name-email span {
+  width: 80%;
+}
+
+.name-email input {
+  width: 80%;
+}
+
+.password-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.password {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-wrapper span {
+  width: 80%;
+}
+
+.password input {
+  width: 80%;
+}
+
+.checkbox-forms-container {
+  margin-bottom: 20px;
+}
+
+.additional-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.add-input-box {
+  width: 200px;
+  height: 50px;
+}
+
+.join-button-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button.join-button {
+  background-color: #F5005B;
+  color: #FFF;
+  font-size: 16px;
+  height: 60px;
+  margin-bottom: 20px;
+  width: 120px;
+}
+
+.bottom-nav {
+  display: flex;
+}
+
+.copyright {
+color: #FFF;
+}
+
+@media screen and (min-width: 545px) {
+
+  .nav-ul {
+    flex-direction: row;
+  }
+
+  nav li {
+    height: 9em;
+  }
+
+  nav li {
+    width: 9em;
+  }
+
+   .profile-pic-wrapper img{
+    max-width: 50vw;
+    max-height: 50vw;
+  }
+
+  .name-email-wrapper, .password-wrapper {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
+
+  .genre-forms-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media screen and (min-width: 769px) {
+
+  .genre-forms-container {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+  }
+
+
+
+
+}
+
+
+
+
+
+}
