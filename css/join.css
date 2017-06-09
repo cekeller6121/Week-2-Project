@@ -84,12 +84,9 @@ img.nav-fc-logo {
   color: #0B1942;
 }
 
-.profile-pic-wrapper {
-}
-
 .profile-pic-wrapper img {
   border-radius: 50%;
-  width: 100%;
+  width: 75%;
 }
 
 .name-email-wrapper {
